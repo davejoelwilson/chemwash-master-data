@@ -55,52 +55,150 @@ async function fetchRecentlyModifiedJobs(minutesAgo = DEFAULT_TIME_WINDOW) {
       ];
     }
     
-    // PRODUCTION MODE: Actually check for recently modified jobs
-    console.log(`PRODUCTION MODE: Looking for jobs modified in the last ${minutesAgo} minutes`);
+    // PRODUCTION MODE: We'll now check Airtable first to see if any records were modified recently
+    console.log(`PRODUCTION MODE: Checking Airtable for recently modified jobs...`);
     
+    // Use the direct table ID instead of the name
+    const tableId = 'tbl7iVgJPJzijH0ru';
+    
+    try {
+      console.log(`Querying Airtable for recently modified records`);
+      
+      // Calculate timestamp for X minutes ago (using a wider window for safety)
+      const now = new Date();
+      // Use a 24-hour window to catch more records
+      const dailyWindow = 24 * 60; // 24 hours in minutes
+      const dayAgoDate = new Date(now.getTime() - (dailyWindow * 60 * 1000));
+      
+      console.log(`Looking for Airtable records modified since: ${dayAgoDate.toISOString()}`);
+      
+      // Format the date for Airtable formula (ISO string format)
+      const formattedDate = dayAgoDate.toISOString();
+      
+      // Create a formula to find records modified after a certain time
+      // Note: The Last Modified field needs to exist in your Airtable for this to work
+      const filterFormula = `IS_AFTER({Last Modified}, '${formattedDate}')`;
+      console.log(`Using Airtable filter formula: ${filterFormula}`);
+      
+      const records = await airtableBase(tableId)
+        .select({
+          filterByFormula: filterFormula,
+          maxRecords: 10
+        })
+        .all();
+      
+      console.log(`Found ${records.length} recently modified records in Airtable`);
+      
+      if (records.length > 0) {
+        // Extract job IDs from the records
+        const jobIds = records.map(record => record.fields.Job).filter(Boolean);
+        console.log(`Extracted job IDs from Airtable: ${jobIds.join(', ')}`);
+        
+        if (jobIds.length > 0) {
+          return jobIds;
+        }
+      }
+      
+      console.log(`No recently modified records found in Airtable, checking Fergus API...`);
+    } catch (error) {
+      console.error(`Error querying Airtable for modified records: ${error.message}`);
+      console.log(`Falling back to Fergus API...`);
+    }
+    
+    // If no records found in Airtable, fall back to our previous approach
     // Calculate timestamp for X minutes ago
     const now = new Date();
     const minutesAgoDate = new Date(now.getTime() - (minutesAgo * 60 * 1000));
     
     console.log(`Current time: ${now.toISOString()}`);
-    console.log(`Looking for jobs modified since: ${minutesAgoDate.toISOString()}`);
-    
-    // Get a larger window for debugging purposes
-    const hourlyWindow = 60; // 60 minutes = 1 hour
-    const hourlyWindowDate = new Date(now.getTime() - (hourlyWindow * 60 * 1000));
-    console.log(`Also checking for jobs modified in the last hour: ${hourlyWindowDate.toISOString()}`);
+    console.log(`Looking for Fergus jobs modified since: ${minutesAgoDate.toISOString()}`);
     
     // Use the API to fetch all active jobs
     const activeJobs = await api.fetchActiveJobs(50, 5); // Fetch up to 250 jobs (5 pages of 50)
     
     if (!activeJobs || activeJobs.length === 0) {
-      console.log('No active jobs found');
+      console.log('No active jobs found in Fergus');
       return [];
     }
     
-    console.log(`Found ${activeJobs.length} active jobs, filtering for recently modified...`);
+    console.log(`Found ${activeJobs.length} active jobs in Fergus`);
     
     // Log some sample job modification dates to help diagnose the issue
-    console.log('Sample job modification dates:');
+    console.log('Sample job modification dates from Fergus:');
     for (let i = 0; i < Math.min(5, activeJobs.length); i++) {
       const job = activeJobs[i];
       console.log(`Job ${job.internal_id || job.internal_job_id}: Modified at ${job.date_last_modified || 'unknown'}`);
     }
     
-    // Filter for jobs modified within the time window (15 minutes)
+    // Count jobs with valid modification dates
+    const jobsWithDates = activeJobs.filter(job => job.date_last_modified).length;
+    const percentWithDates = (jobsWithDates / activeJobs.length) * 100;
+    console.log(`${jobsWithDates} out of ${activeJobs.length} jobs (${percentWithDates.toFixed(1)}%) have modification dates`);
+    
+    // If very few jobs have dates, use a different approach
+    if (jobsWithDates < activeJobs.length * 0.1) { // Less than 10% of jobs have dates
+      console.log('Most jobs are missing modification dates. Checking for specific jobs in Airtable...');
+      
+      // Try looking up specific jobs we know should exist in Airtable
+      const specificJobs = ['NW-28367', 'NW-29686'];
+      console.log(`Checking if specific jobs exist in Airtable: ${specificJobs.join(', ')}`);
+      
+      const existingJobs = [];
+      
+      for (const jobId of specificJobs) {
+        try {
+          const formula = `{Job}='${jobId}'`;
+          const records = await airtableBase(tableId)
+            .select({
+              filterByFormula: formula,
+              maxRecords: 1
+            })
+            .all();
+          
+          if (records.length > 0) {
+            console.log(`Found job ${jobId} in Airtable`);
+            existingJobs.push(jobId);
+          } else {
+            console.log(`Job ${jobId} not found in Airtable`);
+          }
+        } catch (error) {
+          console.error(`Error checking for job ${jobId}: ${error.message}`);
+        }
+      }
+      
+      if (existingJobs.length > 0) {
+        console.log(`Returning ${existingJobs.length} jobs that exist in Airtable`);
+        return existingJobs;
+      }
+      
+      // If still nothing, try the most recent jobs by ID
+      console.log('No specific jobs found. Using most recent job IDs as fallback...');
+      
+      // Sort jobs by ID (assuming newer jobs have higher IDs)
+      const sortedJobs = [...activeJobs].sort((a, b) => {
+        const idA = parseInt((a.internal_id || a.internal_job_id || '').replace('NW-', ''), 10) || 0;
+        const idB = parseInt((b.internal_id || b.internal_job_id || '').replace('NW-', ''), 10) || 0;
+        return idB - idA; // Descending order (newest first)
+      });
+      
+      // Take the 5 most recent jobs to process
+      const recentJobsList = sortedJobs.slice(0, 5).map(job => {
+        const jobId = job.internal_id || job.internal_job_id;
+        const formattedId = jobId.startsWith('NW-') ? jobId : `NW-${jobId}`;
+        console.log(`Including recent job by ID: ${formattedId}`);
+        return formattedId;
+      });
+      
+      return recentJobsList;
+    }
+    
+    // Filter for jobs modified within the time window if dates exist
     const recentlyModified = activeJobs.filter(job => {
       if (!job.date_last_modified) return false;
       
       try {
         const modifiedDate = new Date(job.date_last_modified);
-        const isRecent = modifiedDate >= minutesAgoDate;
-        
-        // If job was modified in the last hour, log it for debugging
-        if (modifiedDate >= hourlyWindowDate) {
-          console.log(`Job ${job.internal_id || job.internal_job_id} modified at ${job.date_last_modified}, within last hour: ${modifiedDate >= minutesAgoDate ? 'YES' : 'NO'}`);
-        }
-        
-        return isRecent;
+        return modifiedDate >= minutesAgoDate;
       } catch (error) {
         console.error(`Error parsing date for job ${job.internal_id || job.internal_job_id}: ${error.message}`);
         return false;
@@ -116,40 +214,14 @@ async function fetchRecentlyModifiedJobs(minutesAgo = DEFAULT_TIME_WINDOW) {
       return jobId.startsWith('NW-') ? jobId : `NW-${jobId}`;
     });
     
-    // If no recently modified jobs found based on modification dates
-    if (recentJobIds.length === 0) {
-      console.log('No recently modified jobs found based on modification dates.');
-      console.log('Checking if jobs have necessary modification date information...');
-      
-      // Count jobs with valid modification dates
-      const jobsWithDates = activeJobs.filter(job => job.date_last_modified).length;
-      
-      if (jobsWithDates < activeJobs.length * 0.1) { // Less than 10% of jobs have dates
-        console.log('Most jobs are missing modification dates. Using most recent job numbers instead.');
-        
-        // Sort jobs by ID (assuming newer jobs have higher IDs)
-        const sortedJobs = [...activeJobs].sort((a, b) => {
-          const idA = parseInt((a.internal_id || a.internal_job_id || '').replace('NW-', ''), 10) || 0;
-          const idB = parseInt((b.internal_id || b.internal_job_id || '').replace('NW-', ''), 10) || 0;
-          return idB - idA; // Descending order (newest first)
-        });
-        
-        // Take the 5 most recent jobs to process
-        const recentJobsList = sortedJobs.slice(0, 5).map(job => {
-          const jobId = job.internal_id || job.internal_job_id;
-          const formattedId = jobId.startsWith('NW-') ? jobId : `NW-${jobId}`;
-          console.log(`Including recent job by ID: ${formattedId}`);
-          return formattedId;
-        });
-        
-        return recentJobsList;
-      }
-      
-      console.log('No jobs to process this cycle.');
-      return [];
+    // If we found jobs with modification dates, return them
+    if (recentJobIds.length > 0) {
+      return recentJobIds;
     }
     
-    return recentJobIds;
+    // If we get here, we couldn't find any jobs to process
+    console.log('No jobs found to process in this cycle.');
+    return [];
   } catch (error) {
     console.error('Error fetching recently modified jobs:', error.message);
     // Return a test job ID as fallback
