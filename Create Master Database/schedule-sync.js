@@ -13,6 +13,7 @@
 const { spawn } = require('child_process');
 const path = require('path');
 const fs = require('fs').promises;
+const fsSync = require('fs'); // Regular fs module for stream operations
 
 // Constants
 const SYNC_INTERVAL_MS = 15 * 60 * 1000; // 15 minutes
@@ -47,8 +48,8 @@ async function runSyncScript() {
     const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
     const logFile = path.join(LOG_DIR, `sync-${timestamp}.log`);
     
-    // Open log file for writing
-    const logStream = fs.createWriteStream(logFile);
+    // Open log file for writing - using the synchronous fs module
+    const logStream = fsSync.createWriteStream(logFile);
     
     console.log(`Running sync script at ${new Date().toISOString()}`);
     console.log(`Logging output to ${logFile}`);
