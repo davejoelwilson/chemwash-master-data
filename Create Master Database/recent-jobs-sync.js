@@ -82,7 +82,7 @@ async function fetchRecentlyModifiedJobs(minutesAgo = DEFAULT_TIME_WINDOW) {
       const records = await airtableBase(tableId)
         .select({
           filterByFormula: filterFormula,
-          maxRecords: 10
+          maxRecords: 20
         })
         .all();
       
@@ -113,7 +113,7 @@ async function fetchRecentlyModifiedJobs(minutesAgo = DEFAULT_TIME_WINDOW) {
     console.log(`Looking for Fergus jobs modified since: ${minutesAgoDate.toISOString()}`);
     
     // Use the API to fetch all active jobs
-    const activeJobs = await api.fetchActiveJobs(50, 5); // Fetch up to 250 jobs (5 pages of 50)
+    const activeJobs = await api.fetchActiveJobs(50, 10); // Fetch up to 500 jobs (10 pages of 50)
     
     if (!activeJobs || activeJobs.length === 0) {
       console.log('No active jobs found in Fergus');
@@ -180,8 +180,8 @@ async function fetchRecentlyModifiedJobs(minutesAgo = DEFAULT_TIME_WINDOW) {
         return idB - idA; // Descending order (newest first)
       });
       
-      // Take the 5 most recent jobs to process
-      const recentJobsList = sortedJobs.slice(0, 5).map(job => {
+      // Take the 20 most recent jobs to process
+      const recentJobsList = sortedJobs.slice(0, 20).map(job => {
         const jobId = job.internal_id || job.internal_job_id;
         const formattedId = jobId.startsWith('NW-') ? jobId : `NW-${jobId}`;
         console.log(`Including recent job by ID: ${formattedId}`);
