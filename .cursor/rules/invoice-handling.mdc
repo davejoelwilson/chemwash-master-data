@@ -1,0 +1,48 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Invoice Syncing
+
+This system uses multiple methods to discover and sync invoices from Fergus to Airtable.
+
+## Key APIs for Invoice Detection
+
+The most reliable method is through the status board data endpoint:
+
+```javascript
+// [sync-fergus-invoices.js](mdc:sync-fergus-invoices.js)
+const url = 'https://app.fergus.com/api/v2/status_board/data';
+```
+
+This returns data with `works_order_ids` and `customer_invoice_ids`.
+
+## Invoice Types
+
+Two main types of invoices are handled:
+
+1. **Customer Invoices**: Finalized invoices sent to customers
+2. **Works Orders**: Pre-invoice items that are ready to be converted to invoices
+
+## Implementation Strategy
+
+The invoice sync process:
+
+1. Extract invoice IDs from status board data
+2. Fetch detailed information using those IDs
+3. Process and format for Airtable
+4. Perform upsert operations (update existing or create new)
+
+## Airtable Integration
+
+Invoices are synced to an "Invoices" table with fields including:
+- Invoice Number
+- Invoice Reference
+- Fergus Site Address
+- Amount Paid
+- Invoice Status
+- Customer
+- Invoice Date
+
+See [invoice-handling.md](mdc:docs/invoice-handling.md) for more detailed documentation.

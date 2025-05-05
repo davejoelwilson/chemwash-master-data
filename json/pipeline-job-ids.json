@@ -1,0 +1,3877 @@
+[
+  {
+    "id": "12238218",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "12239863",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "12242310",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "13693264",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "13695362",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "15145268",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "15145269",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "15145271",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "15145272",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "15145276",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "15153922",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "15153923",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "15153925",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "15153926",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "15153930",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "15155724",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "15157916",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "15239441",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "15239442",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "15239443",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "15260147",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "15272916",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "15328155",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "15827231",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "15829545",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "16736982",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "16956949",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17000755",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17092798",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17124418",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17131968",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17133911",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17165648",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17177080",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17187638",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17189837",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17189838",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17189839",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17189840",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17192419",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17192420",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17192421",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17205954",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17205955",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17217950",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17228895",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17228899",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17384389",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17419048",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17436786",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17517808",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17556494",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17677375",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17708090",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "17813732",
+    "pipeline_stage": "pending",
+    "pipeline_section": "on_hold"
+  },
+  {
+    "id": "15056375",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "to_price"
+  },
+  {
+    "id": "17285656",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "to_price"
+  },
+  {
+    "id": "17773741",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "to_price"
+  },
+  {
+    "id": "17774106",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "to_price"
+  },
+  {
+    "id": "17774222",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "to_price"
+  },
+  {
+    "id": "17774737",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "to_price"
+  },
+  {
+    "id": "17774920",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "to_price"
+  },
+  {
+    "id": "17778646",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "to_price"
+  },
+  {
+    "id": "17789849",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "to_price"
+  },
+  {
+    "id": "17916826",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "to_price"
+  },
+  {
+    "id": "17917564",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "to_price"
+  },
+  {
+    "id": "17930054",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "to_price"
+  },
+  {
+    "id": "17931114",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "to_price"
+  },
+  {
+    "id": "17933282",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "to_price"
+  },
+  {
+    "id": "17940619",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "to_price"
+  },
+  {
+    "id": "17941187",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "to_price"
+  },
+  {
+    "id": "17942488",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "to_price"
+  },
+  {
+    "id": "17942981",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "to_price"
+  },
+  {
+    "id": "17943230",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "to_price"
+  },
+  {
+    "id": "8596537",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "11326374",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "12163096",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "12176262",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "12306525",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "12306690",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "12666817",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "12699648",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "12810859",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "12837830",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "12875190",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "12922707",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "12931415",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "12944241",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "12956551",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "12963711",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "12978096",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "12978373",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "12990395",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "12992005",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "12992473",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13000631",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13000668",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13001129",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13010821",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13032081",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13032805",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13033008",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13033313",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13036932",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13036976",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13037188",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13037709",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13042257",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13064579",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13088442",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13089172",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13122267",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13174361",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13175786",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13177642",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13179535",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13211164",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13224384",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13226108",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13231861",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13256707",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13260065",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13260235",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13260257",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13261085",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13271830",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13288813",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13289003",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13297852",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13316187",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13316664",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13345643",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13346482",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13353647",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13369809",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13371287",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13379647",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13380614",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13380815",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13381814",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13381981",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13382327",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13382376",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13383223",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13390440",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13390919",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13411524",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13412246",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13426581",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13435320",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13437976",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13456407",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13466439",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13466696",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13467422",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13468943",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13479134",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13482200",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13482256",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13490328",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13493124",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13493389",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13493681",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13496111",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13514342",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13522481",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13525912",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13533662",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13533790",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13533940",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13535610",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13536192",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13536474",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13536946",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13538687",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13539812",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13540250",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13546567",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13546868",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13547106",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13547569",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13548563",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13551161",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13567501",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13570838",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13578783",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13593514",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13593561",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13594386",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13597794",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13597972",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13598018",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13598628",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13606523",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13608714",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13609075",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13617299",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13617555",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13628548",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13628739",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13630552",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13638877",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13640122",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13654869",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13656977",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13679512",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13686754",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13687396",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13700131",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13701949",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13711370",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13711644",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13722330",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13722650",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13742155",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13744385",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13757596",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13764786",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13765395",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13765666",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13766978",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13776900",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13777129",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13777201",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13778602",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13778640",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13786220",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13786441",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13808802",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13808919",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13824387",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13840569",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13865473",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13879698",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13887938",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13888060",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13890101",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13890672",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13900354",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13901656",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13910267",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13911926",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13912101",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13913076",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13928125",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13928292",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13928313",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13928340",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13929094",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13959200",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13968564",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13970817",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "13981417",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14012219",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14012443",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14012866",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14015599",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14023103",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14032469",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14032677",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14032714",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14113091",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14113314",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14113615",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14114125",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14114386",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14115510",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14124823",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14133464",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14134410",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14137392",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14137513",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14154441",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14183760",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14195097",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14196212",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14219009",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14229730",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14230633",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14267076",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14298254",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14302483",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14313697",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14331576",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14338711",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14369430",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14380682",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14395261",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14419178",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14419527",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14422182",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14425857",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14446274",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14456829",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14459080",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14470227",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14474493",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14475140",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14496993",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14497082",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14497111",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14507155",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14508872",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14520133",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14548129",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14557762",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14559968",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14567852",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14568056",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14593473",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14595856",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14596687",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14598513",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14599486",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14609158",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14631011",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14633007",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14645560",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14657921",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14700241",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14704286",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14705050",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14714276",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14714448",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14750885",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14751062",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14754422",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14763292",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14779338",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14786970",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14797981",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14798298",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14798440",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14798604",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14827139",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14827959",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14828388",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14828552",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14828590",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14828661",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14831081",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14831430",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14868983",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14869599",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14880606",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14883898",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14892696",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14893092",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14895408",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14905115",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14905917",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14913024",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14914690",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14915026",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14939067",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14941843",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14942177",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14974221",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14982708",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14983415",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14997921",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "14999202",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15002414",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15007185",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15031061",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15032762",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15033928",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15045894",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15046253",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15058355",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15061834",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15069572",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15073730",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15081016",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15086167",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15106962",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15114468",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15166043",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15172443",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15178351",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15196553",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15196926",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15206266",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15220828",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15233899",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15233949",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15234633",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15262148",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15265904",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15297334",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15299816",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15308820",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15310727",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15323842",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15340000",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15345229",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15361791",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15394846",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15395598",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15396366",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15396396",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15396438",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15396457",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15396474",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15396513",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15396527",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15396697",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15408381",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15410698",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15521960",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15522015",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15546771",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15547848",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15581743",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15581776",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15581788",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15595062",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15597224",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15619217",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15621127",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15630587",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15651906",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15660775",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15662781",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15664201",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15666118",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15667035",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15678643",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15685933",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15688575",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15718838",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15719272",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15742727",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15742763",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15751070",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15751360",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15752164",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15773782",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15774495",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15774792",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15775558",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15775864",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15776810",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15777964",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15779361",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15785620",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15785836",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15785882",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15787438",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15789084",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15791015",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15791616",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15799888",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15811089",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15820247",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15843117",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15849216",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15859183",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15859400",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15865092",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15866677",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15867020",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15876218",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15877341",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15877583",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15878718",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15887424",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15887628",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15888298",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15892973",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15898596",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15911023",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15911117",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15921144",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15925231",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15931001",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15942719",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15947341",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15966377",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15966833",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15967060",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15967105",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15976511",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15985995",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15987705",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16001173",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16002516",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16003553",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16044595",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16044903",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16045184",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16056560",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16057529",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16060946",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16070668",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16072268",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16082833",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16084029",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16092183",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16112097",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16112330",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16112486",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16112935",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16116168",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16117097",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16118783",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16124268",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16127934",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16136218",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16137349",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16145112",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16155981",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16156140",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16158952",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16167692",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16168513",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16169026",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16174246",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16174274",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16182605",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16185782",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16192583",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16201680",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16203520",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16213900",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16226127",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16234691",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16234918",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16235532",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16235563",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16237097",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16237208",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16237269",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16237365",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16237530",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16237590",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16237784",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16237851",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16239243",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16247895",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16247997",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16249029",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16267271",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16277028",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16281369",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16304675",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16322005",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16323194",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16323237",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16332387",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16332727",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16333184",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16333614",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16336091",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16345304",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16356789",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16358097",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16358358",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16364107",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16365952",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16367947",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16367994",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16368042",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16368089",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16392220",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16392714",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16392751",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16413148",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16414536",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16431351",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16431572",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16432096",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16446632",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16456564",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16458755",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16461530",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16467754",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16468827",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16469548",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16471729",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16488645",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16507478",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16507604",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16508092",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16520353",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16520563",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16522880",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16532152",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16533449",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16556534",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16568531",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16590667",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16595366",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16608902",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16609008",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16609275",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16623689",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16635303",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16643411",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16643820",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16652562",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16652880",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16667304",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16698517",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16708149",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16709135",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16724458",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16735369",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16735823",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16736986",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16746074",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16757733",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16762898",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16762930",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16762960",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16766516",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16783204",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16783987",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16791809",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16806178",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16812308",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16814607",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16822592",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16824154",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16825469",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16825536",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16835664",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16837783",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16837819",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16850480",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16860446",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16862046",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16868940",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16870560",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16877613",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16892374",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16893012",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16893117",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16893606",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16893629",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16894312",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16894367",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16895657",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16901031",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16904243",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16914573",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16923349",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16932083",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16997754",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16999110",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16999256",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "16999991",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17000059",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17000086",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17009196",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17018787",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17018820",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17018869",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17019168",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17031694",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17043362",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17066726",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17077171",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17078249",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17078318",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17078497",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17090555",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17093189",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17116684",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17148975",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17149024",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17181202",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17183880",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17224650",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17237996",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17238207",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17253221",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17254994",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17255435",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17264271",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17265421",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17274712",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17278223",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17278380",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17286168",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17329757",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17329801",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17346984",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17349625",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17349689",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17360384",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17362030",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17362616",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17371673",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17377365",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17383568",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17385267",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17386163",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17395635",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17422509",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17436603",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17437745",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17438338",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17438644",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17447313",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "17448265",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "expired"
+  },
+  {
+    "id": "15975485",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "16644107",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "16999910",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17435253",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17470507",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17509208",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17527829",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17555631",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17556073",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17581787",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17600589",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17600697",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17612637",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17624096",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17625480",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17626924",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17641238",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17648346",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17650024",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17650423",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17651460",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17659355",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17675589",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17676099",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17687286",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17692204",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17721721",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17737991",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17741679",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17752632",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17765169",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17765257",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17775988",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17785499",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17797598",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17798642",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17798678",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17800592",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17809560",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17814076",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17822685",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17824682",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17832606",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17846850",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17847112",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17847190",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17849338",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17887115",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17887189",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17887706",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17887740",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17887802",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17887839",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17887869",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17887994",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17891403",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17893052",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17901860",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17902588",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17902789",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17904744",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17908155",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17914619",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17916453",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17917602",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17918818",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17927723",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17928021",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  },
+  {
+    "id": "17940576",
+    "pipeline_stage": "to_price",
+    "pipeline_section": "sent"
+  }
+]

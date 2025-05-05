@@ -1,0 +1,53 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Fergus API Endpoints
+
+This project uses multiple Fergus API endpoints to fetch jobs, invoices, and other data.
+
+## Core Job Endpoints
+
+- `https://app.fergus.com/api/v2/status_board/all_active_jobs`: Get all active jobs (POST)
+- `https://app.fergus.com/api/v2/job_card/load_from_job`: Get detailed job information (POST)
+- `https://app.fergus.com/api/v2/jobs/extended_json`: Get comprehensive job data including invoices (GET)
+
+## Invoice-Related Endpoints
+
+- `https://app.fergus.com/api/v2/status_board/data`: Get status board data with invoice IDs (POST)
+- `https://app.fergus.com/api/v2/financials/invoices/{invoice_id}`: Get customer invoice details (GET)
+- `https://app.fergus.com/api/v2/works_orders/{order_id}`: Get works order details (GET)
+- `https://app.fergus.com/api/v2/finance/invoices`: Alternative invoice endpoint (GET)
+
+## Key Limitations
+
+- The `status_board/all_active_jobs` endpoint only returns active jobs, not completed or invoiced ones
+- Invoice endpoints may require specific permissions
+- API has rate limiting, so requests are spaced with delays
+
+## Usage Example
+
+```javascript
+// Fetch job with invoices
+async function fetchJobWithInvoices(jobId) {
+  try {
+    const url = 'https://app.fergus.com/api/v2/jobs/extended_json';
+    const response = await axios.get(url, {
+      params: {
+        job_id: jobId,
+        internal_job_id: '',
+        page: ''
+      },
+      headers: getDefaultHeaders()
+    });
+    
+    return response.data;
+  } catch (error) {
+    console.error(`Error fetching detailed data for job ${jobId}:`, error.message);
+    return null;
+  }
+}
+```
+
+See [fergus-api-documentation.md](mdc:docs/fergus-api-documentation.md) for complete API documentation.

@@ -1,0 +1,19 @@
+{
+  "name": "chemwash-fergus-integration",
+  "version": "1.0.0",
+  "description": "Data integration between Fergus and Airtable for ChemWash",
+  "main": "Create Master Database/batch-update-all.js",
+  "scripts": {
+    "start": "node Create\\ Master\\ Database/batch-update-all.js",
+    "update-batch": "node Create\\ Master\\ Database/batch-update-all.js --limit=100",
+    "update-all": "node Create\\ Master\\ Database/batch-update-all.js"
+  },
+  "dependencies": {
+    "airtable": "^0.12.1",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+} 

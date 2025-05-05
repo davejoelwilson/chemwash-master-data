@@ -1,0 +1,25 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Fergus-Airtable Sync Project Structure
+
+This project syncs data from the Fergus job management system to Airtable. The system handles both job data and invoice data.
+
+## Main Scripts
+
+- [direct-fergus-api.js](mdc:direct-fergus-api.js): Full sync script that synchronizes all jobs and related data
+- [sync-fergus-invoices.js](mdc:sync-fergus-invoices.js): Specialized script for syncing invoices and works orders
+- [incremental-sync.js](mdc:incremental-sync.js): Daily sync script that only processes jobs/invoices that have changed
+
+## Package Configuration
+
+- [package.json](mdc:package.json): Contains npm scripts and dependencies
+
+## Documentation
+
+The [docs](mdc:docs) directory contains comprehensive documentation:
+- [docs/CHANGELOG.md](mdc:docs/CHANGELOG.md): Version history (current: v1.2.0)
+- [docs/fergus-api-documentation.md](mdc:docs/fergus-api-documentation.md): API endpoints reference
+- [docs/invoice-handling.md](mdc:docs/invoice-handling.md): Guide to invoice detection and syncing

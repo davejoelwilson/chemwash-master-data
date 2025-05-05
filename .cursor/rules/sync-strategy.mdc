@@ -1,0 +1,46 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Sync Strategy
+
+The Fergus-Airtable sync system employs a multi-layered approach to ensure data is kept up-to-date.
+
+## Three-Tier Sync Strategy
+
+1. **Daily Incremental Sync** ([incremental-sync.js](mdc:incremental-sync.js))
+   - Runs daily (e.g., overnight at 2am)
+   - Only processes jobs that have changed since last run
+   - Fast and efficient with minimal API usage
+
+2. **Invoice-Focused Sync** ([sync-fergus-invoices.js](mdc:sync-fergus-invoices.js))
+   - Runs 2-3 times weekly (e.g., Monday, Wednesday, Friday)
+   - Specifically focuses on invoice discovery and syncing
+   - Uses status board data to find invoice IDs
+
+3. **Weekly Full Sync** ([direct-fergus-api.js](mdc:direct-fergus-api.js))
+   - Runs weekly (e.g., Sunday night)
+   - Complete refresh of all jobs and data
+   - Backup to ensure no data is missed
+
+## Setting Up Automated Syncs
+
+Multiple deployment options are available:
+
+```bash
+# Cron example (run incremental sync at 2am daily)
+0 2 * * * cd /path/to/fergus && node incremental-sync.js >> logs/sync.log 2>&1
+
+# Cron example (run invoice sync Mon/Wed/Fri at 3am)
+0 3 * * 1,3,5 cd /path/to/fergus && node sync-fergus-invoices.js >> logs/invoice-sync.log 2>&1
+
+# Cron example (run full sync Sunday at 1am)
+0 1 * * 0 cd /path/to/fergus && node direct-fergus-api.js >> logs/full-sync.log 2>&1
+```
+
+## Upsert Logic
+
+All syncs use "upsert" operations on Airtable:
+- If a record exists (matched by ID or number), it's updated
+- If no matching record exists, a new one is created

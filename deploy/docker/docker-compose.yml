@@ -1,0 +1,17 @@
+version: '3'
+services:
+  fergus-sync:
+    build:
+      context: ../..
+      dockerfile: deploy/docker/Dockerfile
+    environment:
+      - TZ=Pacific/Auckland
+      - AIRTABLE_API_KEY=${AIRTABLE_API_KEY}
+      - AIRTABLE_BASE_ID=${AIRTABLE_BASE_ID}
+    volumes:
+      - sync-data:/app/data
+    restart: always
+
+volumes:
+  sync-data:
+    driver: local 

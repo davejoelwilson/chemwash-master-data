@@ -1,0 +1,62 @@
+# Environment variables
+.env
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+
+# Cookie files and cached data
+*cookie*.json
+auth-cookies.json
+sample-data-*.json
+all-pipeline-jobs.json
+
+# Output directory
+output/
+data/
+
+# Sync state
+last_sync.json
+
+# Playwright
+.auth/
+
+# Authentication and sensitive data
+auth-state.json
+*-auth.json
+*.env
+*.env
+
+# Generated files
+*.png
+fergus-page.html
+fergus-elements.json
+
+# OS specific
+.DS_Store
+Thumbs.db 

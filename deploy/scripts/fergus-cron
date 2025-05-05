@@ -1,0 +1,1 @@
+0 2 * * * cd /Users/davewilson/Code/Customer/Chemwash/Fergus && node incremental-sync.js >> sync.log 2>&1

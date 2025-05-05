@@ -1,0 +1,10 @@
+{
+  "type": "pipeline-jobs",
+  "startTime": "2025-05-03T06:10:36.425Z",
+  "endTime": "2025-05-03T06:14:19.297Z",
+  "durationSeconds": 222.872,
+  "totalJobs": 775,
+  "created": 0,
+  "updated": 775,
+  "errors": 0
+}

@@ -1,0 +1,14 @@
+[Unit]
+Description=Fergus to Airtable Sync Service
+After=network.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/path/to/fergus-sync
+ExecStart=/usr/bin/node /path/to/fergus-sync/incremental-sync.js
+User=youruser
+StandardOutput=append:/path/to/fergus-sync/sync.log
+StandardError=append:/path/to/fergus-sync/sync.log
+
+[Install]
+WantedBy=multi-user.target 

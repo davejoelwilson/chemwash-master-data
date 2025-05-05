@@ -1,0 +1,28 @@
+{
+  "name": "fergus-airtable-sync",
+  "version": "1.2.0",
+  "description": "Sync Fergus job and invoice data to Airtable",
+  "main": "incremental-sync.js",
+  "scripts": {
+    "start": "node incremental-sync.js",
+    "full-sync": "node direct-fergus-api.js",
+    "sync-invoices": "node sync-fergus-invoices.js",
+    "docker-build": "docker build -t fergus-sync -f deploy/docker/Dockerfile .",
+    "docker-run": "docker run -d --name fergus-sync --restart unless-stopped fergus-sync",
+    "test-modified": "node test/test-modified-jobs.js",
+    "test-invoices": "node test/test-job-invoices.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "airtable": "^0.12.2",
+    "axios": "^1.8.4",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "fs-extra": "^11.1.1",
+    "p-limit": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
