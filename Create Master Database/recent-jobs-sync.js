@@ -64,16 +64,15 @@ async function fetchRecentlyModifiedJobs(minutesAgo = DEFAULT_TIME_WINDOW) {
     try {
       console.log(`Querying Airtable for recently modified records`);
       
-      // Calculate timestamp for X minutes ago (using a wider window for safety)
+      // Calculate timestamp for 30 minutes ago (slightly longer than our sync interval)
       const now = new Date();
-      // Use a 24-hour window to catch more records
-      const dailyWindow = 24 * 60; // 24 hours in minutes
-      const dayAgoDate = new Date(now.getTime() - (dailyWindow * 60 * 1000));
+      const lookbackWindow = 30; // 30 minutes
+      const lookbackDate = new Date(now.getTime() - (lookbackWindow * 60 * 1000));
       
-      console.log(`Looking for Airtable records modified since: ${dayAgoDate.toISOString()}`);
+      console.log(`Looking for Airtable records modified since: ${lookbackDate.toISOString()}`);
       
       // Format the date for Airtable formula (ISO string format)
-      const formattedDate = dayAgoDate.toISOString();
+      const formattedDate = lookbackDate.toISOString();
       
       // Create a formula to find records modified after a certain time
       // Note: The Last Modified field needs to exist in your Airtable for this to work
@@ -87,7 +86,7 @@ async function fetchRecentlyModifiedJobs(minutesAgo = DEFAULT_TIME_WINDOW) {
         })
         .all();
       
-      console.log(`Found ${records.length} recently modified records in Airtable`);
+      console.log(`Found ${records.length} recently modified records in Airtable (last 30 minutes)`);
       
       if (records.length > 0) {
         // Extract job IDs from the records
