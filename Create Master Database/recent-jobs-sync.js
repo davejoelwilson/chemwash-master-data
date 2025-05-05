@@ -62,6 +62,14 @@ async function fetchRecentlyModifiedJobs(minutesAgo = DEFAULT_TIME_WINDOW) {
     const now = new Date();
     const minutesAgoDate = new Date(now.getTime() - (minutesAgo * 60 * 1000));
     
+    console.log(`Current time: ${now.toISOString()}`);
+    console.log(`Looking for jobs modified since: ${minutesAgoDate.toISOString()}`);
+    
+    // Get a larger window for debugging purposes
+    const hourlyWindow = 60; // 60 minutes = 1 hour
+    const hourlyWindowDate = new Date(now.getTime() - (hourlyWindow * 60 * 1000));
+    console.log(`Also checking for jobs modified in the last hour: ${hourlyWindowDate.toISOString()}`);
+    
     // Use the API to fetch all active jobs
     const activeJobs = await api.fetchActiveJobs(50, 5); // Fetch up to 250 jobs (5 pages of 50)
     
@@ -72,12 +80,31 @@ async function fetchRecentlyModifiedJobs(minutesAgo = DEFAULT_TIME_WINDOW) {
     
     console.log(`Found ${activeJobs.length} active jobs, filtering for recently modified...`);
     
-    // Filter for jobs modified within the time window
+    // Log some sample job modification dates to help diagnose the issue
+    console.log('Sample job modification dates:');
+    for (let i = 0; i < Math.min(5, activeJobs.length); i++) {
+      const job = activeJobs[i];
+      console.log(`Job ${job.internal_id || job.internal_job_id}: Modified at ${job.date_last_modified || 'unknown'}`);
+    }
+    
+    // Filter for jobs modified within the time window (15 minutes)
     const recentlyModified = activeJobs.filter(job => {
       if (!job.date_last_modified) return false;
       
-      const modifiedDate = new Date(job.date_last_modified);
-      return modifiedDate >= minutesAgoDate;
+      try {
+        const modifiedDate = new Date(job.date_last_modified);
+        const isRecent = modifiedDate >= minutesAgoDate;
+        
+        // If job was modified in the last hour, log it for debugging
+        if (modifiedDate >= hourlyWindowDate) {
+          console.log(`Job ${job.internal_id || job.internal_job_id} modified at ${job.date_last_modified}, within last hour: ${modifiedDate >= minutesAgoDate ? 'YES' : 'NO'}`);
+        }
+        
+        return isRecent;
+      } catch (error) {
+        console.error(`Error parsing date for job ${job.internal_id || job.internal_job_id}: ${error.message}`);
+        return false;
+      }
     });
     
     console.log(`Found ${recentlyModified.length} jobs modified in the last ${minutesAgo} minutes`);
@@ -92,6 +119,9 @@ async function fetchRecentlyModifiedJobs(minutesAgo = DEFAULT_TIME_WINDOW) {
     // If no recently modified jobs found, return empty array
     if (recentJobIds.length === 0) {
       console.log('No recently modified jobs found to sync.');
+      
+      // Return empty array instead of hardcoded jobs
+      return [];
     }
     
     return recentJobIds;
