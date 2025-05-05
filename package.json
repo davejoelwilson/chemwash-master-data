@@ -1,16 +1,15 @@
 {
-  "name": "chemwash-fergus-integration",
+  "name": "fergus-airtable-sync",
   "version": "1.0.0",
-  "description": "Data integration between Fergus and Airtable for ChemWash",
-  "main": "Create Master Database/batch-update-all.js",
+  "description": "Sync data from Fergus to Airtable",
+  "main": "Create Master Database/schedule-sync.js",
   "scripts": {
-    "start": "node Create\\ Master\\ Database/batch-update-all.js",
-    "update-batch": "node Create\\ Master\\ Database/batch-update-all.js --limit=100",
-    "update-all": "node Create\\ Master\\ Database/batch-update-all.js"
+    "start": "node Create\\ Master\\ Database/schedule-sync.js",
+    "test": "node Create\\ Master\\ Database/recent-jobs-sync.js 60"
   },
   "dependencies": {
-    "airtable": "^0.12.1",
-    "axios": "^1.4.0",
+    "axios": "^1.6.2",
+    "airtable": "^0.12.2",
     "dotenv": "^16.3.1"
   },
   "engines": {

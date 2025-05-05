@@ -26,7 +26,51 @@ This distinction affects how contact data should be structured in Airtable, as y
 
 ## Available Scripts
 
-### 1. update-airtable-row.js
+### 1. Automated Sync Scripts (NEW)
+
+These scripts allow you to automatically keep your Airtable updated with the latest data from Fergus without manual intervention.
+
+#### recent-jobs-sync.js
+
+This script checks for recently modified jobs in Fergus and updates their contact information in Airtable. It's designed to run periodically (e.g., every 15 minutes) to keep your data synchronized.
+
+**Usage:**
+```
+# Run with default 15-minute window
+node recent-jobs-sync.js
+
+# Or specify a custom time window (e.g., 60 minutes)
+node recent-jobs-sync.js 60
+```
+
+The script will:
+- Fetch jobs modified in the last X minutes from Fergus
+- Check if each job exists in Airtable
+- Update the contact information for matching records
+- Skip jobs that don't exist in Airtable
+- Log the results to the console
+
+#### schedule-sync.js
+
+This script automatically runs the recent-jobs-sync.js script every 15 minutes to ensure your Airtable stays up-to-date with Fergus.
+
+**Usage:**
+```
+# Start the scheduled sync
+node schedule-sync.js
+
+# Press Ctrl+C to stop the scheduler
+```
+
+The script will:
+- Run the sync immediately on startup
+- Schedule automatic runs every 15 minutes
+- Log all output to the logs directory
+- Continue running until manually stopped
+
+This is perfect for integrating with the Make.com scenario you described. Make.com adds new jobs/invoices to Airtable, and this script fills in the contact details from Fergus automatically.
+
+### 2. update-airtable-row.js
 
 This script updates or creates (upsert) a row in Airtable with job and contact information from Fergus. It finds existing records by job ID and updates them, or creates a new record if none exists.
 
@@ -43,9 +87,9 @@ The script will:
 - Update the existing record or create a new one
 - Display a summary of the process
 
-This is the recommended script for updating Airtable with the latest data from Fergus. It prevents duplicate records and keeps your Airtable data in sync.
+This is the recommended script for manually updating Airtable with the latest data from Fergus. It prevents duplicate records and keeps your Airtable data in sync.
 
-### 2. fetch-job-data.js
+### 3. fetch-job-data.js
 
 This script fetches data from Fergus for one or more jobs, without making any changes to Airtable. Use this to verify what data is available in Fergus.
 
@@ -63,7 +107,7 @@ The script will:
 - Save the complete JSON data to `output/job-data-NW-21491.json`
 - Display a summary of the contact information in the console
 
-### 3. check-airtable-data.js
+### 4. check-airtable-data.js
 
 This script checks what data is already in Airtable for a specific job or invoice. Use this to see the current state before making updates.
 
@@ -81,7 +125,7 @@ The script will:
 - Save the Airtable data to `output/airtable-job-NW-21491.json`
 - Display a summary of the fields in each matching record
 
-### 4. batch-update-contacts.js
+### 5. batch-update-contacts.js
 
 This script updates contact information for multiple jobs at once. It can process all jobs in your Airtable or a specific list of job numbers.
 
@@ -102,7 +146,7 @@ The script will:
 - Save job data JSON files to the output directory
 - Display a summary of successful and failed updates
 
-### 5. fergus-data-only.js
+### 6. fergus-data-only.js
 
 This standalone script fetches data directly from Fergus without requiring Airtable credentials. Use this for testing what data is available before setting up the Airtable connection.
 
@@ -127,11 +171,19 @@ Make sure your Airtable has the required contact fields added to the table befor
 
 ## Recommended Workflow
 
-1. First, use `fergus-data-only.js` or `fetch-job-data.js` to check what data is available in Fergus for a job
-2. Then use `check-airtable-data.js` to see what's currently in your Airtable
-3. Update your Airtable schema if needed to accommodate both consumer and commercial customer types
-4. Use `update-airtable-row.js` to update a specific job's contact information
-5. Once everything is working correctly, use `batch-update-contacts.js` to update multiple jobs at once
+1. **Initial Setup:**
+   - Use `fergus-data-only.js` or `fetch-job-data.js` to check what data is available in Fergus for a job
+   - Use `check-airtable-data.js` to see what's currently in your Airtable
+   - Update your Airtable schema if needed to accommodate both consumer and commercial customer types
+
+2. **One-Time Bulk Update:**
+   - Use `batch-update-contacts.js` to update all existing jobs in Airtable with contact information
+
+3. **Automated Integration:**
+   - Setup your Make.com scenario to add new invoices from Xero to Airtable
+   - Run the `schedule-sync.js` script to automatically fill in contact details for new jobs every 15 minutes
+
+This setup ensures that all new invoices in Xero will be added to Airtable via Make.com, and the contact details will be automatically filled in from Fergus shortly afterward.
 
 ## Airtable Field Recommendations
 
