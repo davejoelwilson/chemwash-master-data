@@ -116,11 +116,36 @@ async function fetchRecentlyModifiedJobs(minutesAgo = DEFAULT_TIME_WINDOW) {
       return jobId.startsWith('NW-') ? jobId : `NW-${jobId}`;
     });
     
-    // If no recently modified jobs found, return empty array
+    // If no recently modified jobs found based on modification dates
     if (recentJobIds.length === 0) {
-      console.log('No recently modified jobs found to sync.');
+      console.log('No recently modified jobs found based on modification dates.');
+      console.log('Checking if jobs have necessary modification date information...');
       
-      // Return empty array instead of hardcoded jobs
+      // Count jobs with valid modification dates
+      const jobsWithDates = activeJobs.filter(job => job.date_last_modified).length;
+      
+      if (jobsWithDates < activeJobs.length * 0.1) { // Less than 10% of jobs have dates
+        console.log('Most jobs are missing modification dates. Using most recent job numbers instead.');
+        
+        // Sort jobs by ID (assuming newer jobs have higher IDs)
+        const sortedJobs = [...activeJobs].sort((a, b) => {
+          const idA = parseInt((a.internal_id || a.internal_job_id || '').replace('NW-', ''), 10) || 0;
+          const idB = parseInt((b.internal_id || b.internal_job_id || '').replace('NW-', ''), 10) || 0;
+          return idB - idA; // Descending order (newest first)
+        });
+        
+        // Take the 5 most recent jobs to process
+        const recentJobsList = sortedJobs.slice(0, 5).map(job => {
+          const jobId = job.internal_id || job.internal_job_id;
+          const formattedId = jobId.startsWith('NW-') ? jobId : `NW-${jobId}`;
+          console.log(`Including recent job by ID: ${formattedId}`);
+          return formattedId;
+        });
+        
+        return recentJobsList;
+      }
+      
+      console.log('No jobs to process this cycle.');
       return [];
     }
     
